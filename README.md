@@ -15,6 +15,12 @@ To run this project locally, you need the following:
 
 ## Installation
 
+### Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/mauritania-license-plate-scraping.git
+   cd mauritania-license-plate-scraping
+```
+
 ### Create a virtual environment:
 
 ```bash
