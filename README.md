@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ```ini
 [API]
-PLATE_RECOGNIZER_API_URL = your_api_url_here
+PLATE_RECOGNIZER_API_URL = https://api.platerecognizer.com/v1/plate-reader/
 PLATE_RECOGNIZER_API_KEY = your_api_key_here
 
 [URL]
@@ -40,10 +40,10 @@ BASE_URL = https://www.voursa.com
 MAIN_URL = https://www.voursa.com/voitures-vendues.cfm?user=637
 
 [SETTINGS]
-START_PAGE = 1
-END_PAGE = 59
-MAX_WORKERS = 5
+MAX_WORKERS = 2
 START_CAR_NUMBER = 1
+START_PAGE = 1
+END_PAGE = 3
 ```
 
 ### SETTINGS Section 
