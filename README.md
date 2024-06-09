@@ -29,6 +29,16 @@ To run this project locally, you need the following:
 python -m venv env
 ```
 
+### Activate the virtual environment if not already activated:
+
+```bash
+# On Windows
+env\Scripts\activate
+
+# On Mac OS / Linux
+source env/bin/activate
+```
+
 
 ## Install the required libraries:
 
@@ -62,17 +72,6 @@ END_PAGE = 3
 
 ## Running the Script
 
-### Activate the virtual environment if not already activated:
-
-```bash
-# On Windows
-env\Scripts\activate
-
-# On Mac OS / Linux
-source env/bin/activate
-```
-
-### Run the scraping script:
 ```bash
 python scrape_car.py
 ```
