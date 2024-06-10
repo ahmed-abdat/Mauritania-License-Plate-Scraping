@@ -4,7 +4,7 @@ This repository contains the web scraping code for the 2024 National Data Scienc
 
 ## Overview
 
-This project scrapes car images from the <a href="https://www.voursa.com" target="_blank">Voursa website</a> and optionally processes them to detect and crop license plates using the Plate Recognizer API. The collected data will be used in the second phase of the competition for developing and tuning license plate recognition algorithms.
+This project scrapes car images from the [Voursa website](https://www.voursa.com/voitures-vendues.cfm) and optionally processes them to detect and crop license plates using the Plate Recognizer API. The collected data will be used in the second phase of the competition for developing and tuning license plate recognition algorithms.
 
 ![voursa_screenshott](https://github.com/ahmed-abdat/Mauritania-License-Plate-Scraping/assets/102254583/4b86d7b2-3a3e-494d-9985-2d51b3b4c5e2)
 
