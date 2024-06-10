@@ -17,7 +17,7 @@ To run this project locally, you need the following:
 
 ### Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mauritania-license-plate-scraping.git
+   git clone https://github.com/ahmed-abdat/Mauritania-License-Plate-Scraping.git
 ```
 ### Change directory
 ```bash

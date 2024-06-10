@@ -1,0 +1,5 @@
+env/
+web_images/
+cropped_images/
+
+utils/__pycache__/
