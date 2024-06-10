@@ -91,7 +91,7 @@ def scrape_page_images(api_config, image_config, page_number, start_car_number, 
     service = Service(ChromeDriverManager().install())
 
     with webdriver.Chrome(service=service, options=options) as driver:
-        page_url = f"{api_config['main_url']}&PN={page_number}"
+        page_url = f"{api_config['main_url']}?PN={page_number}"
         driver.get(page_url)
         car_links = get_car_links(driver, api_config['base_url'])
         logging.info(f"Scraping page {page_number} with {len(car_links)} cars")
