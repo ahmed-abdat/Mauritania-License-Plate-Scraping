@@ -5,7 +5,6 @@ from ratelimit import limits, sleep_and_retry
 
 def process_image_with_plate_recognizer(api_url, api_key, config_payload, mmc, regions, image_path, skip_api):
     if skip_api:
-        logging.info("Skipping API call as per user decision.")
         return {"skip_api": True}
 
     try:

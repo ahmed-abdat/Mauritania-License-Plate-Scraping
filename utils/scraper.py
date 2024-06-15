@@ -68,7 +68,6 @@ def scrape_car_images(api_config, image_config, car_url, car_number, page_number
                     )
                     if 'skip_api' in result and result['skip_api']:
                         skip_api = True
-                        logging.info("Continuing without API calls due to user configuration.")
                     else:
                         crop_license_plate(image_path, result.get('results', []), image_config['cropped_images_folder'], image_config['pattern'])
         except Exception as e:
